@@ -2,13 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class Car extends React.Component {
-	// To declare a var in a constructor "this"
-	// constructor() {
-	// 	super();
-	// 	internal components
-	// 	this.state = { color: 'red' };
-	// }
-
 	render() {
 		return (
 			(
