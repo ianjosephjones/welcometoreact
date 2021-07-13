@@ -7,8 +7,8 @@ class Garage extends React.Component {
 		return (
 			<div>
 				<h1>{this.props.owner} Garage</h1>
-				<Car make={this.props.model1} />
-				<Car make={this.props.model2} />
+				<Car make={this.props.model1} color={this.props.color1} />
+				<Car make={this.props.model2} color={this.props.color} />
 			</div>
 		);
 	}
